@@ -29,6 +29,22 @@ print(next(it))
 #         print(line)
 
 
-with open('data.txt','r')as file:
-               content = file.read()
-               print(content)
+# with open(r"data.txt",'r')as file:
+#                content = file.read()
+#                print(content)
+
+#infinite fibannocai
+def fib():
+        a,b = 0,1
+        while True:
+               yield a
+               a,b = b, a+b
+fibonnacai = fib()
+for _ in range(6):
+        print(next(fibonnacai))
+
+
+        #generator exp
+        sq = (x *x for x in range(5))
+        for i in sq:
+                print(i)

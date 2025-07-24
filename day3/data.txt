@@ -1,0 +1,62 @@
+🔢 1. List
+📘 Definition:
+A List is an ordered, mutable, indexed collection that allows duplicate items.
+
+🧠 Analogy:
+“List ek shopping bag ki tarah hai – jisme aap kuch bhi daal sakte ho – aur badle mein usse access bhi kar sakte ho position se.”
+
+python
+Copy
+Edit
+fruits = ['apple', 'banana', 'mango']
+print(fruits[1])  # banana
+fruits.append('grape')  # add new
+✅ Interview Tip:
+Explain append(), extend(), slicing, and list comprehension.
+
+📦 2. Tuple
+📘 Definition:
+A Tuple is an ordered, immutable collection that allows duplicate elements.
+
+🧠 Analogy:
+“Tuple ek train seat reservation jaisa hai – ek baar book ho gaya, ab change nahi hoga.”
+
+python
+Copy
+Edit
+location = ('Delhi', 'Mumbai', 'Chennai')
+print(location[0])  # Delhi
+✅ Interview Tip:
+Tuples are faster and memory efficient. Use when data shouldn't change.
+
+🔑 3. Dictionary
+📘 Definition:
+A Dictionary is an unordered collection of key-value pairs.
+
+🧠 Analogy:
+“Dictionary bilkul real dictionary ki tarah hai – word (key) search karo, meaning (value) mil jaata hai.”
+
+python
+Copy
+Edit
+student = {'name': 'Rahul', 'age': 22}
+print(student['name'])  # Rahul
+✅ Interview Tip:
+Talk about get(), keys(), values(), and update() methods.
+Used heavily in APIs, config, user data, etc.
+
+🔁 4. Set
+📘 Definition:
+Set is an unordered, mutable, non-duplicate collection.
+
+🧠 Analogy:
+“Set ek party guest list jaisa hai – naam repeat nahi hote.”
+
+python
+Copy
+Edit
+nums = {1, 2, 3, 3, 4}
+print(nums)  # {1, 2, 3, 4}
+✅ Interview Tip:
+Great for removing duplicates, performing set operations: union, intersection, etc.
+

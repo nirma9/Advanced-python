@@ -1,0 +1,33 @@
+print("welcome to todays series")
+
+from datetime import datetime
+
+nam  = input("enter your name: ")
+
+
+#get current date and time
+now = datetime.now()
+current_hour = now.hour
+current_time = now.strftime("%I:%M %p")  #12 hour farmat with AM/PM
+
+#print current time
+print("Current Time:", current_time)
+
+#greetings 
+
+if 5<= current_hour <12:
+               print("Good Morning")
+               print("Hope you slept well! A fresh new day is a chance to learn something new,\n stay positive, and do your best")
+elif 12 <= current_hour < 17:
+        print("Goof Afternoon")
+        print("Take a short break and recharge. keep pushing through,\n you are doing great!")
+elif 17 <= current_hour <21:
+        print("Good Evening")
+        print("The day may be ending, \n but theres always something to be thankful for. \n relax and reflect..")
+else:
+        print("GOod Night..")
+        print("Its time to rest and refresh. \n sleep well and prepare for a new start tommorrow ..")
+
+#ending
+print("\n Thanks for running the program. IKNow you're busy. so i wont take more time..")
+print("Good bye!.. have a wonderful day \n or night ahead")
