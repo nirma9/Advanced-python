@@ -19,5 +19,9 @@ print(np.arange(0,10,2))
 a = np.array([1,2,3])
 b = np.array([4,5,6])
 print(a+b)
+
+
 print(a*b)
 
+
+np.me

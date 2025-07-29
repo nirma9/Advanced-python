@@ -29,5 +29,5 @@ else:
         print("Its time to rest and refresh. \n sleep well and prepare for a new start tommorrow ..")
 
 #ending
-print("\n Thanks for running the program. IKNow you're busy. so i wont take more time..")
+print("\n Thanks for running the program. I Know you're busy. so i wont take more time..")
 print("Good bye!.. have a wonderful day \n or night ahead")
