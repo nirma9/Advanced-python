@@ -31,15 +31,17 @@ import matplotlib.pyplot as plt
 # plt.grid(True)
 # plt.show()
 
-import pandas as pd
-data = {"year":[2019,2020,2021,2022],'sales':[120,150,170,200]}
-df = pd.DataFrame(data)
+# import pandas as pd
+# data = {"year":[2019,2020,2021,2022],'sales':[120,150,170,200]}
+# df = pd.DataFrame(data)
 
-plt.plot(df['year'],
-df['sales'],marker = 'o')
+# plt.plot(df['year'],
+# df['sales'],marker = 'o')
 
-plt.title("comapny sales over years")
-plt.xlabel("Year")
-plt.ylabel("sales")
-plt.grid(True)
-plt.show()
+# plt.title("comapny sales over years")
+# plt.xlabel("Year")
+# plt.ylabel("sales")
+# plt.grid(True)
+# plt.show()
+
+
